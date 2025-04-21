@@ -75,7 +75,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🔗 Follow-Up Link
 
-👉 [Portfolio-Followup](https://github.com/yerragondu/Portfolio-Follow-Up))
+👉 [Portfolio-Followup](https://github.com/yerragondu/Portfolio-Follow-Up)
 
 More ideas can be found in the above Github Repository. 
 
