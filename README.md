@@ -40,3 +40,45 @@ portfolio/
 
 ---
 
+## 🛠️ How to Reproduce Locally
+
+To run this website locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/<your-username>/Academic-Professional-Portfolio-Website.git
+   cd Academic-Professional-Portfolio-Website
+   ```
+
+2. **Open in browser:**
+   Simply open `index.html` with your browser.
+   ```bash
+   open index.html  # macOS
+   # or
+   start index.html  # Windows
+   ```
+
+3. **Optional: Use a local development server (recommended for routing):**
+   ```bash
+   # Python 3.x
+   python -m http.server
+   # Then navigate to http://localhost:8000
+   ```
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute it with proper attribution.
+
+---
+
+## 🔗 Follow-Up Link
+
+👉 [Live Portfolio Website]([https://<your-github-username>.github.io/Academic-Professional-Portfolio-Website](https://github.com/yerragondu/Portfolio-Follow-Up))
+
+More ideas can be found in the above Github Repository. 
+
+---
+
+> Feel free to fork this repo and customize it to fit your own academic or professional journey!
