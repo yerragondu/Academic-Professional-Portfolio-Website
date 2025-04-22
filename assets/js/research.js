@@ -4,40 +4,47 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
+    title: "Research & Outreach Volunteer at PolyAgent",
+    authors: "",
+    conferences:
+      "Participated in regular meetings to test various AI models, share insights, and discuss recent advancements in Machine Learning and Artificial Intelligence research.",
+    researchYr: "Aug 2024 - Present",
+    citebox: "",
+    image: "assets/images/experience-page/poly.jpg",
+    citation: {
+      vancouver: "",
+    },
+    abstract: "",
+    absbox: "absPopup1",
+  },
+  {
     title: "Multifold Fusion Attention Variant for Emotion Recognition",
-    authors:
-      "Nikhil Reddy, Chetana Krishnan",
+    authors: "Nikhil Reddy, Chetana Krishnan",
     conferences:
       "2025 International Conference on Computer Science and Software Engineering (CSASE)",
     researchYr: 2025,
     citebox: "popup1",
     image: "assets/images/research-page/mfa.jpg",
     citation: {
-      vancouver:
-        "CSASE 2025",
+      vancouver: "CSASE 2025",
     },
-    abstract:
-      "",
+    abstract: "",
     absbox: "absPopup1",
   },
   {
     title: "An Analysis of Video Forgery Detection Techniques",
-    authors:
-      "Raksha Pandey, Nikhil Reddy",
+    authors: "Raksha Pandey, Nikhil Reddy",
     conferences:
       "4th International conference on Latest Trends in Engineering and Management (ICLTEM-2023)",
     researchYr: 2023,
     citebox: "popup1",
     image: "assets/images/research-page/svd.png",
     citation: {
-      vancouver:
-        "ICLTEM 2023",
+      vancouver: "ICLTEM 2023",
     },
-    abstract:
-      "",
+    abstract: "",
     absbox: "absPopup1",
   },
-
 ];
 AOS.init();
 const fillData = () => {

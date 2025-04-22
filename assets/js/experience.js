@@ -5,13 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Research and Outreach Volunteer",
-    cardImage: "assets/images/experience-page/poly.jpg",
+    title: "Data Science Intern",
+    cardImage: "assets/images/experience-page/web.png",
     imageAlt:
       "Copyright reserved : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z",
-    place: "PolyAgent",
-    time: "(Aug, 2024 - present)",
-    desp: "Contributed to the development and optimization of open-source LLM AI agent frameworks, enhancing scalability, robustness, and usability. Conducted benchmarking, optimized real-time decision-making algorithms, and collaborated with the open-source community through code contributions and technical documentation.",
+    place: "Talent Engines LLC",
+    time: "(Mar, 2025 - present)",
+    desp: "Led a six‑person team to build scalable BeautifulSoup/Selenium scraping pipelines, liaising with senior leadership to meet quality goals, and introduced verification checks that raised data accuracy and sped preprocessing by 30 percent.",
   },
   {
     title: "Machine Learning Intern",
@@ -20,7 +20,7 @@ const exp = [
       "Copyright reserved : https://medium.com/@c.giancaterino/relevance-of-feature-engineering-to-build-a-predictive-model-4c9e3e115c90",
     place: "PanTech Solutions",
     time: "(Jun 2022)",
-    desp: "Developed and optimized machine learning models through advanced data preprocessing, feature engineering, and algorithm tuning. Ensured model reliability with rigorous validation and delivered actionable insights via data visualization.",
+    desp: "During this internship I cultivated a strong foundation in machine learning by tackling hands‑on projects that demanded practical experimentation and rapid iteration. I implemented rigorous inference and evaluation pipelines-stress‑testing models to verify real‑world applicability and translated the resulting analyses into clear, data‑driven visualizations that highlighted actionable insights for stakeholders.",
   },
 ];
 
