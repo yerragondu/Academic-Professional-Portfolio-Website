@@ -70,7 +70,7 @@ const showCards = () => {
   
         <div class="project-card"> 
           <div class="project-card-view card"> 
-            <img class="card-img-top" src="${cardImage}" height="280" width="200" alt="card-img" /> 
+            <img class="card-img-top" src="${cardImage}" height="250" width="180" alt="card-img" /> 
             <div class="card-body"> 
               <p class="card-title" style="font-weight: bold;">${title}</p>
 <p class="card-text" style="text-align: justify; display: block; ">${description}</p>

@@ -11,7 +11,7 @@ const exp = [
       "Copyright reserved : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z",
     place: "Talent Engines LLC",
     time: "(Mar, 2025 - present)",
-    desp: "Led a six‑person team to build scalable BeautifulSoup/Selenium scraping pipelines, liaising with senior leadership to meet quality goals, and introduced verification checks that raised data accuracy and sped preprocessing by 30 percent.",
+    desp: "At Talent Engines LLC, I engineered and deployed robust web scraping pipelines using Selenium and BeautifulSoup to extract high-quality data from over 250 diverse law firm websites, significantly enhancing the efficiency of data collection. I automated data validation workflows with Python, which reduced manual intervention and improved pipeline throughput by over 30%. Additionally, I designed and implemented scalable data cleaning and organization processes to convert unstructured web data into a structured graph database, ensuring seamless integration and high query performance. To support reliable and consistent deployment across environments, I developed containerized setups using Docker, which improved both development reliability and production scalability by 25%.",
   },
   {
     title: "Machine Learning Intern",
@@ -19,8 +19,8 @@ const exp = [
     imageAlt:
       "Copyright reserved : https://medium.com/@c.giancaterino/relevance-of-feature-engineering-to-build-a-predictive-model-4c9e3e115c90",
     place: "PanTech Solutions",
-    time: "(Jun 2022)",
-    desp: "During this internship I cultivated a strong foundation in machine learning by tackling hands‑on projects that demanded practical experimentation and rapid iteration. I implemented rigorous inference and evaluation pipelines-stress‑testing models to verify real‑world applicability and translated the resulting analyses into clear, data‑driven visualizations that highlighted actionable insights for stakeholders.",
+    time: "(Jun 2022 - July 2022)",
+    desp: "During my internship at PanTech Solutions, I developed computer vision models using Keras and OpenCV to enhance image and human activity recognition across diverse environments. To improve model robustness, I implemented advanced data augmentation techniques, which led to a 20% increase in accuracy across various test scenarios. I also designed intuitive visual dashboards to translate complex model insights for cross-functional teams and non-technical stakeholders, facilitating quicker strategic alignment. Through hands-on projects, I applied core machine learning and AI principles, resulting in a 30% reduction in model training time and contributing to improved team efficiency and knowledge sharing.",
   },
 ];
 
@@ -31,7 +31,6 @@ const showCards2 = () => {
       (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
-        <img src="${cardImage}" class="featured-image" title="${imageAlt}"/>
         <article class="card-body">
           <header>
         <div class="title">
@@ -82,7 +81,7 @@ const showCards = () => {
       (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 250px;width:1200px">
       <div style=display:flex>
-      <div><img src="${cardImage}" height="200" width="200" class="card-img" style="border-radius:10px"></div>
+      <div><img src="${cardImage}" height="175" width="175" class="card-img" style="border-radius:10px"></div>
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2>
           <span class="author">${Period}</span><br>
