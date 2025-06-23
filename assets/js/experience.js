@@ -5,22 +5,22 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Data Science Intern",
+    title: "SRE/DevOps Engineer",
     cardImage: "assets/images/experience-page/web.png",
     imageAlt:
       "Copyright reserved : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z",
-    place: "Talent Engines LLC",
-    time: "(Mar, 2025 - present)",
-    desp: "At Talent Engines LLC, I engineered and deployed robust web scraping pipelines using Selenium and BeautifulSoup to extract high-quality data from over 250 diverse law firm websites, significantly enhancing the efficiency of data collection. I automated data validation workflows with Python, which reduced manual intervention and improved pipeline throughput by over 30%. Additionally, I designed and implemented scalable data cleaning and organization processes to convert unstructured web data into a structured graph database, ensuring seamless integration and high query performance. To support reliable and consistent deployment across environments, I developed containerized setups using Docker, which improved both development reliability and production scalability by 25%.",
+    place: "TIAA",
+    time: "(Sep, 2024 - present)",
+    desp: "I’ve spent the last few years building, automating, and securing cloud-native stacks end-to-end. On AWS I architected and operated everything from EC2 fleets, VPC networking, and Route 53 global traffic management to serverless apps on Lambda, data platforms on Redshift, DynamoDB, and EMR, plus event services (SNS/SQS/SES) and cache layers with ElastiCache and EBS-backed RDS clusters. For container workloads, I run production EKS and AKS clusters with Helm-driven deployments and Istio service-mesh for traffic shaping and zero-downtime releases. The pipelines are locked down with Snyk and Aqua image scanning, Checkov policy checks, HashiCorp Vault secrets, and Prisma Cloud for runtime posture. Observability is baked in: Prometheus/OpenTelemetry metrics flow into Grafana, ELK, Datadog AI, and Dynatrace Davis for AI-powered anomaly detection and alerting. I’ve also automated infrastructure and app config with Chef (via AWS OpsWorks and Elastic Beanstalk), Mesos/Marathon, and dozens of Ansible playbooks for one-click environment provisioning. CI/CD wise, I stand up Git-backed workflows in Jenkins and Argo CD (plus coaching teams on Spinnaker and Semaphore) so every commit can ship straight to prod. I own Git repo design, branching strategies, and access controls, troubleshoot merge conflicts and auth issues in Jira, and keep the whole release train running with Bash/Ruby/Python tooling.",
   },
   {
-    title: "Machine Learning Intern",
+    title: "DevOps Engineer",
     cardImage: "assets/images/experience-page/pan.jpg",
     imageAlt:
       "Copyright reserved : https://medium.com/@c.giancaterino/relevance-of-feature-engineering-to-build-a-predictive-model-4c9e3e115c90",
     place: "PanTech Solutions",
-    time: "(Jun 2022 - July 2022)",
-    desp: "During my internship at PanTech Solutions, I developed computer vision models using Keras and OpenCV to enhance image and human activity recognition across diverse environments. To improve model robustness, I implemented advanced data augmentation techniques, which led to a 20% increase in accuracy across various test scenarios. I also designed intuitive visual dashboards to translate complex model insights for cross-functional teams and non-technical stakeholders, facilitating quicker strategic alignment. Through hands-on projects, I applied core machine learning and AI principles, resulting in a 30% reduction in model training time and contributing to improved team efficiency and knowledge sharing.",
+    time: "(Jan 2022 - Dec 2023)",
+    desp: "I’ve built and managed infrastructure across AWS, Azure, and GCP, delivering secure, automated, and high-performance environments. I created and launched Databricks workspaces with clusters and notebooks using Python, R, Spark, and SQL for advanced analytics and ML workflows. I implemented IaaS, PaaS, and SaaS solutions using OpenStack, Docker, and OpenShift, and led PoC blockchain projects using Azure Blockchain-as-a-Service (BaaS). On GCP, I provisioned infrastructure using Terraform foundation modules, including Shared VPCs, Compute Engine, Cloud SQL, Cloud Storage, and IAM configurations. I managed and optimized hybrid cloud networking setups—VPCs, VPNs, subnets—for performance and scalability. In AWS, I worked extensively with KMS for encryption key management, automated EC2 and S3 provisioning through Azure DevOps pipelines, and customized IAM policies with JSON. I used SaltStack for configuration automation, and built CI/CD pipelines with tools like Puppet, Chef, Jenkins, GitLab, and Bitbucket—integrating with Nexus, SonarQube, and Chef for full-stack DevOps. I also developed Azure SDK automation tools for IoT Hub testing using Python, Docker, Bash, PowerShell, C#, and C++, and wrote Groovy scripts to automate Cassandra metric collection and analysis. Additionally, I handled infrastructure migrations from on-prem to Azure, and across clouds (AWS ↔ Azure ↔ GCP), ensuring minimal downtime and high reliability throughout.",
   },
 ];
 
