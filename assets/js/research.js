@@ -26,7 +26,8 @@ const research = [
     citebox: "popup1",
     image: "assets/images/research-page/mfa.jpg",
     citation: {
-      vancouver: "CSASE 2025",
+      vancouver:
+        "https://www.researchgate.net/publication/393340541_Multifold_Fusion_Attention_Variant_for_Emotion_Recognition",
     },
     abstract: "",
     absbox: "absPopup1",

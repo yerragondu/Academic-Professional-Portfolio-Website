@@ -5,22 +5,31 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "SRE/DevOps Engineer",
+    title: "SSO Engineer",
     cardImage: "assets/images/experience-page/web.png",
     imageAlt:
       "Copyright reserved : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z",
-    place: "TIAA",
-    time: "(Sep, 2024 - present)",
-    desp: "I’ve spent the last few years building, automating, and securing cloud-native stacks end-to-end. On AWS I architected and operated everything from EC2 fleets, VPC networking, and Route 53 global traffic management to serverless apps on Lambda, data platforms on Redshift, DynamoDB, and EMR, plus event services (SNS/SQS/SES) and cache layers with ElastiCache and EBS-backed RDS clusters. For container workloads, I run production EKS and AKS clusters with Helm-driven deployments and Istio service-mesh for traffic shaping and zero-downtime releases. The pipelines are locked down with Snyk and Aqua image scanning, Checkov policy checks, HashiCorp Vault secrets, and Prisma Cloud for runtime posture. Observability is baked in: Prometheus/OpenTelemetry metrics flow into Grafana, ELK, Datadog AI, and Dynatrace Davis for AI-powered anomaly detection and alerting. I’ve also automated infrastructure and app config with Chef (via AWS OpsWorks and Elastic Beanstalk), Mesos/Marathon, and dozens of Ansible playbooks for one-click environment provisioning. CI/CD wise, I stand up Git-backed workflows in Jenkins and Argo CD (plus coaching teams on Spinnaker and Semaphore) so every commit can ship straight to prod. I own Git repo design, branching strategies, and access controls, troubleshoot merge conflicts and auth issues in Jira, and keep the whole release train running with Bash/Ruby/Python tooling.",
+    place: "Pfizer INC",
+    time: "(Feb 2025 - Present)",
+    desp: "I work on enterprise Single Sign-On and federation systems using PingFederate. I create and manage SAML and OAuth integrations, handle certificate renewals, and maintain consistency across dev, stage, and prod environments. I troubleshoot authentication and token issues with tools like SAML Tracer, Postman, and LDAP Browser while managing client secrets in Pfizer Vault and handling ServiceNow requests.",
   },
   {
-    title: "DevOps Engineer",
+    title: "Data Science Intern",
     cardImage: "assets/images/experience-page/pan.jpg",
     imageAlt:
       "Copyright reserved : https://medium.com/@c.giancaterino/relevance-of-feature-engineering-to-build-a-predictive-model-4c9e3e115c90",
-    place: "BirlaSoft",
-    time: "(Jan 2022 - Dec 2023)",
-    desp: "I’ve built and managed infrastructure across AWS, Azure, and GCP, delivering secure, automated, and high-performance environments. I created and launched Databricks workspaces with clusters and notebooks using Python, R, Spark, and SQL for advanced analytics and ML workflows. I implemented IaaS, PaaS, and SaaS solutions using OpenStack, Docker, and OpenShift, and led PoC blockchain projects using Azure Blockchain-as-a-Service (BaaS). On GCP, I provisioned infrastructure using Terraform foundation modules, including Shared VPCs, Compute Engine, Cloud SQL, Cloud Storage, and IAM configurations. I managed and optimized hybrid cloud networking setups—VPCs, VPNs, subnets—for performance and scalability. In AWS, I worked extensively with KMS for encryption key management, automated EC2 and S3 provisioning through Azure DevOps pipelines, and customized IAM policies with JSON. I used SaltStack for configuration automation, and built CI/CD pipelines with tools like Puppet, Chef, Jenkins, GitLab, and Bitbucket—integrating with Nexus, SonarQube, and Chef for full-stack DevOps. I also developed Azure SDK automation tools for IoT Hub testing using Python, Docker, Bash, PowerShell, C#, and C++, and wrote Groovy scripts to automate Cassandra metric collection and analysis. Additionally, I handled infrastructure migrations from on-prem to Azure, and across clouds (AWS ↔ Azure ↔ GCP), ensuring minimal downtime and high reliability throughout.",
+    place: "Talent Engines LLC",
+    time: "(Mar 2024 - Jun 2024)",
+    desp: "I built automated web scraping and data processing pipelines to collect structured data from hundreds of law firm websites. I optimized Python workflows for data validation and cleaning, improving efficiency by 30%. I also containerized these pipelines with Docker for reliable deployments across development and production environments.",
+  },
+  {
+    title: "Machine Learning Intern",
+    cardImage: "assets/images/experience-page/web.png",
+    imageAlt:
+      "Copyright reserved : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05411-z",
+    place: "PanTech Solutions",
+    time: "(Jun 2022 - Jul 2022)",
+    desp: "I developed computer vision models using Keras and OpenCV to improve activity and image recognition. Through advanced data augmentation, I boosted model accuracy by 20% and reduced training time by 30%. I also created dashboards to present insights to non-technical teams, improving project visibility and collaboration.",
   },
 ];
 
